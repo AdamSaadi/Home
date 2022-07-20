@@ -1,6 +1,7 @@
 import React from "react";
-import Foot from "../sure/footer/footer";
-import Nav from "../sure/nav/nav";
+import Foot from "D:/working-stuff/the/src/component/footer/footer.js";
+import Nav from "D:/working-stuff/the/src/component/sure/nav.js";
+
 export default function Photograph(){
     return(
     <div>

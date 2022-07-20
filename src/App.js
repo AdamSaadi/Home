@@ -1,18 +1,16 @@
 import React from "react";
-import Contact from "../component/connect/connect";
-import Home from "../component/home/home";
-import Work from "../component/work/work";
-import Air from "../component/the work page/Airbab";
-import PhotoshopColorFree from "../component/the work page/PhotoshopColorFree";
-import Photoshop from "../component/the work page/Photoshop";
-import Photograph from "../component/the work page/Photograph";
-import Thisweb from "../component/the work page/ThisWeb";
+import Contact from "D:/working-stuff/the/src/component/connect/connectt.js";
+import Home from "D:/working-stuff/the/src/component/home/home.js";
+import Work from "D:/working-stuff/the/src/work/work.js";
+import Air from "D:/working-stuff/the/src/the work page/Airbab.js";
+import PhotoshopColorFree from "D:/working-stuff/the/src/the work page/PhotoshopColorFree.js";
+import Photoshop from "D:/working-stuff/the/src/the work page/Photoshop.js";
+import Photograph from "D:/working-stuff/the/src/the work page/Photograph.js";
+import Thisweb from "D:/working-stuff/the/src/the work page/Photoshop.js";
 import "./index.css"
-import Navhum from "../component/sure/nav/Navhum";
-import Python from "../component/the work page/HandTracking";
-import Nft from "../component/the work page/NFT";
-import StockPrice from "../component/the work page/StockPrice";
-
+import Navhum from "D:/working-stuff/the/src/component/sure/nav/Navhum.js";
+import Python from "D:/working-stuff/the/src/the work page/HandTracking.js";
+import StockPrice from "D:/working-stuff/the/src/the work page/StockPrice.js"
 export default function App(){
   let Component
    switch (window.location.pathname){
@@ -48,9 +46,6 @@ export default function App(){
           break; 
       case "/Python":
           Component = <Python/>
-          break; 
-      case "/Nft":
-          Component = <Nft/>
           break; 
   
 }

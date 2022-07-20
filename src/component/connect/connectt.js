@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "./the main connect";
-import Nav from "../sure/nav/nav";
-import Foot from "../sure/footer/footer";
+import Foot from "D:/working-stuff/the/src/component/footer/footer.js";
+import Nav from "D:/working-stuff/the/src/component/sure/nav.js";
 
 export default function Contact(){
     return(
