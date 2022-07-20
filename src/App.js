@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Contact from "../component/connect/connect";
+import Home from "../component/home/home";
+import Work from "../component/work/work";
+import Air from "../component/the work page/Airbab";
+import PhotoshopColorFree from "../component/the work page/PhotoshopColorFree";
+import Photoshop from "../component/the work page/Photoshop";
+import Photograph from "../component/the work page/Photograph";
+import Thisweb from "../component/the work page/ThisWeb";
+import "./index.css"
+import Navhum from "../component/sure/nav/Navhum";
+import Python from "../component/the work page/HandTracking";
+import Nft from "../component/the work page/NFT";
+import StockPrice from "../component/the work page/StockPrice";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(){
+  let Component
+   switch (window.location.pathname){
+      case "/":
+          Component = <Home/>
+          break;
+      case "/Work":
+          Component = <Work/>
+          break;
+      case "/Connect":
+          Component = <Contact/>
+          break;
+      case "/StockPrice":
+          Component = <StockPrice/>
+          break;
+      case "/Air":
+          Component = <Air/>
+          break;
+      case "/PhotoshopColorFree":
+          Component = <PhotoshopColorFree/>
+          break;
+      case "/Photoshop":
+          Component = <Photoshop/>
+          break;
+      case "/Photograph":
+          Component = <Photograph/>
+          break;
+      case "/Thisweb":
+          Component = <Thisweb/>
+          break;   
+      case "/Navhum":
+          Component = <Navhum/>
+          break; 
+      case "/Python":
+          Component = <Python/>
+          break; 
+      case "/Nft":
+          Component = <Nft/>
+          break; 
+  
 }
-
-export default App;
+  return(
+    <div>
+    {Component}
+    </div>
+  )
+  }
