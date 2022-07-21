@@ -1,6 +1,12 @@
 import React from "react";
 import Nav from "../sure/nav/nav";
 import Foot from "../sure/footer/footer";
+import l1 from 'D:/the/src/images/py-stock.png';
+import l2 from 'D:/the/src/images/air-web-project1.png';
+import l3 from 'D:/the/src/images/Untitled-3.png';
+import l4 from 'D:/the/src/images/untitled-(1RR-of-1).png';
+import l5 from 'D:/the/src/images/easy.jpg';
+import l6 from 'D:/the/src/images/photoshop-work.png';
 export default function Work(){
     function Customlink ({href,children, ...props}) {
         const path = window.location.pathname 
@@ -15,7 +21,6 @@ export default function Work(){
 
     return(
         <><Nav/>
-    
 <section class="my-work" id="work">
             <h2 class="section__title section__title--work">My Work</h2>
             <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
@@ -23,27 +28,27 @@ export default function Work(){
             <div class="portfolio">
 
                 <a href="/work/StockPrice" class="portfolio__item">
-                <Customlink href="/StockPrice"><img src="images\py-stock.png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/StockPrice"><img src={l1} alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/AirblbWebsite" class="portfolio__item">
-                <Customlink href="/Air"><img src="images\air-web-project1.png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Air"><img src={l2} alt="r" class="portfolio__img"></img></Customlink>
                 </a>
                 
                 <a href="/work/potoshopColorFree"  class="portfolio__item" >
-                 <Customlink href="/PhotoshopColorFree"><img src="images/Untitled-3.png" alt="" class="portfolio__img"></img></Customlink>
+                 <Customlink href="/PhotoshopColorFree"><img src={l3} alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/Photograph" class="portfolio__item">
-                <Customlink href="/Photograph"><img src="images/untitled-(1RR-of-1).png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Photograph"><img src={l4} alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/Thisweb" class="portfolio__item">
-                <Customlink href="/Thisweb"><img src="images/easy.jpg" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Thisweb"><img src={l5} alt="" class="portfolio__img"></img></Customlink>
                 </a>
                 
                 <a href="/work/Photoshop" class="portfolio__item">
-                <Customlink href="/Photoshop"><img src="images/photoshop-work.png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Photoshop"><img src={l6} alt="" class="portfolio__img"></img></Customlink>
                 </a>
 
             </div>
