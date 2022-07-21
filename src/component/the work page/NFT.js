@@ -5,14 +5,14 @@ export default function Nft(){
     return(
         <div>
             <Nav/>
-        <section class="intro" >
-            <h1 class="section__title section__title--intro">
+        <section className="intro" >
+            <h1 className="section__title section__title--intro">
                Design work<strong> NFT </strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">photoshop -- and coding NFT</p>
-            <img src="./images/4518857_python_icon.png" alt="" class="intro__img"></img>
+            <p className="section__subtitle section__subtitle--intro">photoshop -- and coding NFT</p>
+            <img src="./images/4518857_python_icon.png" alt="" className="intro__img"></img>
         </section>
-        <div class="portfolio-item-individual">
+        <div className="portfolio-item-individual">
             <p>An NFT work made on photoshop and some line of code to make a big collection </p>
             <img src="./images/GettyImages-1309905479-scaled.WEBP" alt=""></img>
             <p>the NFT collection... </p>
@@ -25,4 +25,7 @@ export default function Nft(){
         </div>
     )
 }
-/*nfts-Recovered.png */
+/*nfts-Recovered.png 
+  "homepage": "http://AdamSaadi.github.io/portfolio"
+      "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+*/

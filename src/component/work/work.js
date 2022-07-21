@@ -23,19 +23,19 @@ export default function Work(){
             <div class="portfolio">
 
                 <a href="/work/StockPrice" class="portfolio__item">
-                <Customlink href="/StockPrice"><img src="images\py-stock.png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/StockPrice"><img src="images/py-stock.png" alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/AirblbWebsite" class="portfolio__item">
-                <Customlink href="/Air"><img src="images\air-web-project1.png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Air"><img src="images/air-web-project1.png" alt="r" class="portfolio__img"></img></Customlink>
                 </a>
                 
                 <a href="/work/potoshopColorFree"  class="portfolio__item" >
-                 <Customlink href="/PhotoshopColorFree"><img src="images/Untitled-3.png" alt="" class="portfolio__img"></img></Customlink>
+                 <Customlink href="/PhotoshopColorFree"><img src="images/Untitled-3.png" alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/Photograph" class="portfolio__item">
-                <Customlink href="/Photograph"><img src="images/untitled-(1RR-of-1).png" alt="" class="portfolio__img"></img></Customlink>
+                <Customlink href="/Photograph"><img src="images/untitled-(1RR-of-1).png" alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
                 <a href="/work/Thisweb" class="portfolio__item">
