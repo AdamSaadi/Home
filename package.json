@@ -1,5 +1,5 @@
 {
-  "homepage": "https://AdamSaadi.github.io/Home/",
+  "homepage": "https://AdamSaadi.github.io",
   "name": "the",
   "version": "0.1.0",
   "private": true,
@@ -17,11 +17,12 @@
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.12.0",
     "reactjs-popup": "^2.0.5",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
