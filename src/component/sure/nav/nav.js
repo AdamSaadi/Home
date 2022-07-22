@@ -2,7 +2,7 @@ import React from "react";
 export default function Nav(){
   return( 
     <nav className="nnn">
-      <Customlink  href="/"><img src="./images/Untitled-2.png" className="logo" ></img></Customlink>
+      <Customlink  href="/"><img src="./images/Untitled-2.png" alt="just the logo" className="logo" ></img></Customlink>
       <ul className="nav__links" >
       <Customlink href="/" className="li-in-nav" >Home</Customlink>
       <Customlink href="/Work" className="li-in-nav">Work</Customlink>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://AdamSaadi.github.io/Home",
+  "homepage": "https://AdamSaadi.github.io/Home.git",
   "name": "the",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages-deploy -- 'A custom commit message'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,6 +48,7 @@
   "devDependencies": {
     "dotenv": "^16.0.1",
     "eslint": "^8.20.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "gh-pages-deploy": "^0.5.1"
   }
 }

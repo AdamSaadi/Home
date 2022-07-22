@@ -28,4 +28,5 @@ export default function Nft(){
 /*nfts-Recovered.png 
   "homepage": "http://AdamSaadi.github.io/portfolio"
       "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+          "deploy": "gh-pages -b master -d build",
 */
