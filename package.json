@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages-deploy -- 'A custom commit message'",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,5 +50,18 @@
     "eslint": "^8.20.0",
     "gh-pages": "^4.0.0",
     "gh-pages-deploy": "^0.5.1"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "commit": "a custom commit message",
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
   }
 }

@@ -29,4 +29,5 @@ export default function Nft(){
   "homepage": "http://AdamSaadi.github.io/portfolio"
       "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
           "deploy": "gh-pages -b master -d build",
+              "deploy": "gh-pages-deploy -- 'A custom commit message'",
 */
