@@ -1,9 +1,9 @@
 import React from "react";
-import l1 from "D:/the/src/images/Untitled-2.png"
+import l1 from "../../../images/Untitled-2.png"
 export default function Nav(){
   return( 
     <nav className="nnn">
-      <Customlink  href="/"><img src={l1} className="logo" ></img></Customlink>
+      <Customlink  href="/"><img src={l1} className="logo" alt="decription"></img></Customlink>
       <ul className="nav__links" >
       <Customlink href="/" className="li-in-nav" >Home</Customlink>
       <Customlink href="/Work" className="li-in-nav">Work</Customlink>

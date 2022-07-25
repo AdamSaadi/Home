@@ -1,11 +1,11 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "D:/the/src/images/photoshop-workk.png"
-import l2 from "D:/the/src/images/photoshoot.png"
-import l3 from "D:/the/src/images/Track_Progress_14052021_205835.jpg"
-import l4 from "D:/the/src/images/Track_Progress_08052021_091229.jpg"
-import l5 from "D:/the/src/images/Track_Progress_25042021_131727.jpg"
+import l1 from "../../images/photoshop-workk.png"
+import l2 from "../../images/photoshoot.png"
+import l3 from "../../images/Track_Progress_14052021_205835.jpg"
+import l4 from "../../images/Track_Progress_08052021_091229.jpg"
+import l5 from "../../images/Track_Progress_25042021_131727.jpg"
 export default function Photoshop(){
     return(
         <div>

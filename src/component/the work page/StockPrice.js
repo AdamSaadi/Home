@@ -1,11 +1,11 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "D:/the/src/images/2103569.png"
-import l2 from "D:/the/src/images/the-stock.png"
-import l3 from "D:/the/src/images/the-stock-info.png"
-import l4 from "D:/the/src/images/the-stock-table.png"
-import l5 from "D:/the/src/images/the-stock-graph.png"
+import l1 from "../../images/2103569.png"
+import l2 from "../../images/the-stock.png"
+import l3 from "../../images/the-stock-info.png"
+import l4 from "../../images/the-stock-table.png"
+import l5 from "../../images/the-stock-graph.png"
 export default function StockPrice(){
     return(
         <div>

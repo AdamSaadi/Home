@@ -1,8 +1,8 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import lo from 'D:/the/src/images/_MG_4743with-colore-corect.png'
-import loo from "D:/the/src/images/photoToMe.png"
+import lo from '../../images/_MG_4743with-colore-corect.png'
+import loo from "../../images/photoToMe.png"
 export default function Home(){
     return(
         <>
