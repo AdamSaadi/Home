@@ -1,5 +1,5 @@
 {
-  "homepage": "http://adamsaadi.github.io/Home.github.io",
+  "homepage": "http://adamsaadi.github.io/",
   "name": "the",
   "version": "0.1.0",
   "private": false,
@@ -68,7 +68,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "master -d build",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
