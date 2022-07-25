@@ -1,4 +1,16 @@
 import React from "react";
+import Home from "./component/home/home";
+import "./index.css"
+export default function App(){
+  return(
+    <div>
+    <Home/>
+    </div>
+  )
+  }
+
+  /*
+  import React from "react";
 import Contact from "./component/connect/connectt";
 import Home from "./component/home/home";
 import Work from "./component/work/work";
@@ -12,8 +24,10 @@ import Navhum from "./component/sure/nav/Navhum";
 import StockPrice from "./component/the work page/StockPrice";
 
 export default function App(){
+
   let Component
  switch (window.location.pathname){
+      
       case "/":
           Component = <Home/>
           break;
@@ -52,3 +66,4 @@ export default function App(){
     </div>
   )
   }
+  */
