@@ -26,11 +26,7 @@ import StockPrice from "./component/the work page/StockPrice";
 export default function App(){
 
   let Component
- switch (window.location.pathname){
-      
-      case "/":
-          Component = <Home/>
-          break;
+   switch (window.location.pathname){
       case "/Work":
           Component = <Work/>
           break;
@@ -57,7 +53,10 @@ export default function App(){
           break;   
       case "/Navhum":
           Component = <Navhum/>
-          break; 
+          break;
+      default:
+          Component = <Home/>
+          break;
   
 }
   return(

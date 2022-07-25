@@ -1,8 +1,8 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "D:/the/src/images/air-web-project.png"
-import l2 from "D:/the/src/images/air-web-project.png"
+import l1 from "../../images/air-web-project.png"
+import l2 from "../../images/air-web-project.png"
 export default function Air(){
     return(
         <div>
