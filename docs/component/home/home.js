@@ -1,8 +1,11 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
+<<<<<<< HEAD:docs/component/home/home.js
 import lo from 'D:/the/src/images/_MG_4743with-colore-corect.png'
 import loo from "D:/the/src/images/photoToMe.png"
+=======
+>>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/home/home.js
 export default function Home(){
     return(
         <>
@@ -14,7 +17,11 @@ export default function Home(){
                 Hi, I am <strong>Adam Saadi</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro"> Developer  / Designer</p>
+<<<<<<< HEAD:docs/component/home/home.js
             <img src={lo} alt=" Adam Saadi smiling" className="intro__img"></img>
+=======
+            <img src='./images/_MG_4743with-colore-corect.png' alt=" Adam Saadi smiling" className="intro__img"></img>
+>>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/home/home.js
         </section>
         <section className="my-services" id="services">
         <h2 className="section__title section__title--services">What we do</h2>
@@ -64,7 +71,11 @@ I love spending time with friends and family, discussing new ideas, I respect en
             </p>
         </div>
         
+<<<<<<< HEAD:docs/component/home/home.js
         <img src={loo} alt="Adam leaning against a bus" className="about-me__img"></img>
+=======
+        <img src="./images/photoToMe.png" alt="Adam leaning against a bus" className="about-me__img"></img>
+>>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/home/home.js
 
      </section>
         </div>

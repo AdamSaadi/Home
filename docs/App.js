@@ -13,7 +13,7 @@ import StockPrice from "./component/the work page/StockPrice";
 
 export default function App(){
   let Component
-   switch (window.location.pathname){
+ switch (window.location.pathname){
       case "/":
           Component = <Home/>
           break;

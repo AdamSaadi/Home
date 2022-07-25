@@ -28,4 +28,10 @@ export default function Nft(){
 /*nfts-Recovered.png 
   "homepage": "http://AdamSaadi.github.io/portfolio"
       "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+<<<<<<< HEAD:docs/component/the work page/NFT.js
+=======
+          "deploy": "gh-pages -b master -d build",
+              "deploy": "gh-pages-deploy -- 'A custom commit message'",
+                "homepage": "https://github.com/datproject/gasket",
+>>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/the work page/NFT.js
 */
