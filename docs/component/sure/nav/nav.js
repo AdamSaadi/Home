@@ -3,11 +3,7 @@ import l1 from "D:/the/src/images/Untitled-2.png"
 export default function Nav(){
   return( 
     <nav className="nnn">
-<<<<<<< HEAD:docs/component/sure/nav/nav.js
-      <Customlink  href="/"><img src={l1} className="logo" ></img></Customlink>
-=======
       <Customlink  href="/"><img src="./images/Untitled-2.png" alt="just the logo" className="logo" ></img></Customlink>
->>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/sure/nav/nav.js
       <ul className="nav__links" >
       <Customlink href="/" className="li-in-nav" >Home</Customlink>
       <Customlink href="/Work" className="li-in-nav">Work</Customlink>

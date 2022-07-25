@@ -28,21 +28,6 @@ export default function Work(){
             <div class="portfolio">
 
                 <a href="/work/StockPrice" class="portfolio__item">
-<<<<<<< HEAD:docs/component/work/work.js
-                <Customlink href="/StockPrice"><img src={l1} alt="e" class="portfolio__img"></img></Customlink>
-                </a>
-
-                <a href="/work/AirblbWebsite" class="portfolio__item">
-                <Customlink href="/Air"><img src={l2} alt="r" class="portfolio__img"></img></Customlink>
-                </a>
-                
-                <a href="/work/potoshopColorFree"  class="portfolio__item" >
-                 <Customlink href="/PhotoshopColorFree"><img src={l3} alt="e" class="portfolio__img"></img></Customlink>
-                </a>
-
-                <a href="/work/Photograph" class="portfolio__item">
-                <Customlink href="/Photograph"><img src={l4} alt="e" class="portfolio__img"></img></Customlink>
-=======
                 <Customlink href="/StockPrice"><img src="images/py-stock.png" alt="e" class="portfolio__img"></img></Customlink>
                 </a>
 
@@ -56,7 +41,6 @@ export default function Work(){
 
                 <a href="/work/Photograph" class="portfolio__item">
                 <Customlink href="/Photograph"><img src="images/untitled-(1RR-of-1).png" alt="e" class="portfolio__img"></img></Customlink>
->>>>>>> ded22d9a94f8f1bbcc0eff78026e9cf78136b0b7:src/component/work/work.js
                 </a>
 
                 <a href="/work/Thisweb" class="portfolio__item">
