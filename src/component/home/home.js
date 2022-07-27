@@ -17,7 +17,7 @@ export default function Home() {
           <img src={lo} alt=" Adam Saadi smiling" className="intro__img"></img>
         </section>
         <section className="my-services" id="services">
-          <h2 className="section__title section__title--services">What we do</h2>
+          <h2 className="section__title section__title--services">What I do</h2>
           <div className="services">
 
             <div className="service">
