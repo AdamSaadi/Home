@@ -6,8 +6,8 @@ export default function Nav(){
       <Customlink  href="/"><img src={l1} className="logo" alt="decription"></img></Customlink>
       <ul className="nav__links" >
       <Customlink href="/" className="li-in-nav" >Home</Customlink>
-      <Customlink href="/Work" className="li-in-nav">Work</Customlink>
-      <Customlink href="/Connect" className="li-in-nav">Connect</Customlink>
+      <Customlink href="https://adamsaadi.github.io/Work" className="li-in-nav">Work</Customlink>
+      <Customlink href="https://adamsaadi.github.io/Connect" className="li-in-nav">Connect</Customlink>
       </ul>
       <Customlink href="/Navhum" >
         <button className="hamburger"  type="none">
