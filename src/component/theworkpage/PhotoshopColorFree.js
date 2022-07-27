@@ -2,7 +2,6 @@ import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
 import l1 from "../../images/Untitled-5.png"
-import l2 from "../../images/Untitled-5.png"
 import l3 from "../../images/dina.png"
 import l4 from "../../images/Untitled-43.png"
 export default function PhotoshopColorFree() {
@@ -21,7 +20,7 @@ export default function PhotoshopColorFree() {
                 <p>During this project, I worked with Dina Saadi, a great designer. The work focused on outline coloring. There were three projects I worked on. Down there, you can see them.
                 </p>
                 <p><a href="http://www.dinasaadi.com/"> her work </a></p>
-                <img src={l2} alt=""></img>
+                <img src={l1} alt=""></img>
                 <p> Because there are so many lines and colors in this picture, it's kind of hard to work on it.</p>
 
                 <img src={l3} alt=""></img>
