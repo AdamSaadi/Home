@@ -10,7 +10,7 @@ export default function Home() {
 
         <section className="intro" id="home">
           <h1 className="section__title section__title--intro">
-            Hi, I am <strong>Adam Saadi</strong>
+            Hi, I am <strong>Adam Sdi</strong>
           </h1>
           <p className="section__subtitle section__subtitle--intro"> Developer  / Designer</p>
           <img src="..\..\images\_MG_4743with-colore-corect.png" alt=" Adam Saadi smiling" className="intro__img"></img>
