@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "./the main connect";
+import ContactForm from "./themainconnect";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
 
