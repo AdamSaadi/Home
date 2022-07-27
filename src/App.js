@@ -2,14 +2,14 @@ import React from "react";
 import Contact from "./component/connect/connectt";
 import Home from "./component/home/home";
 import Work from "./component/work/work";
-import Air from "./component/the work page/Airbab";
-import PhotoshopColorFree from "./component/the work page/PhotoshopColorFree";
-import Photoshop from "./component/the work page/Photoshop";
-import Photograph from "./component/the work page/Photograph";
-import Thisweb from "./component/the work page/ThisWeb";
+import Air from "./component/theworkpage/Airbab";
+import PhotoshopColorFree from "./component/theworkpage/PhotoshopColorFree";
+import Photoshop from "./component/theworkpage/Photoshop";
+import Photograph from "./component/theworkpage/Photograph";
+import Thisweb from "./component/theworkpage/ThisWeb";
 import "./index.css"
 import Navhum from "./component/sure/nav/Navhum";
-import StockPrice from "./component/the work page/StockPrice";
+import StockPrice from "./component/theworkpage/StockPrice";
 
 export default function App() {
     let Component
