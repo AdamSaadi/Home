@@ -11,44 +11,44 @@ import "./index.css"
 import Navhum from "./component/sure/nav/Navhum";
 import StockPrice from "./component/the work page/StockPrice";
 
-export default function App(){
-  let Component
-   switch (window.location.pathname){
-      case "/Work":
-          Component = <Work/>
-          break;
-      case "/Connect":
-          Component = <Contact/>
-          break;
-      case "/StockPrice":
-          Component = <StockPrice/>
-          break;
-      case "/Air":
-          Component = <Air/>
-          break;
-      case "/PhotoshopColorFree":
-          Component = <PhotoshopColorFree/>
-          break;
-      case "/Photoshop":
-          Component = <Photoshop/>
-          break;
-      case "/Photograph":
-          Component = <Photograph/>
-          break;
-      case "/Thisweb":
-          Component = <Thisweb/>
-          break;   
-      case "/Navhum":
-          Component = <Navhum/>
-          break;
-      default:
-          Component = <Home/>
-          break;
-  
+export default function App() {
+    let Component
+    switch (window.location.pathname) {
+        case "/Work":
+            Component = <Work />
+            break;
+        case "/Connect":
+            Component = <Contact />
+            break;
+        case "/StockPrice":
+            Component = <StockPrice />
+            break;
+        case "/Air":
+            Component = <Air />
+            break;
+        case "/PhotoshopColorFree":
+            Component = <PhotoshopColorFree />
+            break;
+        case "/Photoshop":
+            Component = <Photoshop />
+            break;
+        case "/Photograph":
+            Component = <Photograph />
+            break;
+        case "/Thisweb":
+            Component = <Thisweb />
+            break;
+        case "/Navhum":
+            Component = <Navhum />
+            break;
+        default:
+            Component = <Home />
+            break;
+
+    }
+    return (
+        <div>
+            {Component}
+        </div>
+    )
 }
-  return(
-    <div>
-    {Component}
-    </div>
-  )
-  }

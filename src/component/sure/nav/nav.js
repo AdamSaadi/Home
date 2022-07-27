@@ -1,31 +1,31 @@
 import React from "react";
 import l1 from "../../../images/Untitled-2.png"
-export default function Nav(){
-  return( 
+export default function Nav() {
+  return (
     <nav className="nnn">
-      <Customlink  href="/"><img src={l1} className="logo" alt="decription"></img></Customlink>
+      <Customlink href="/"><img src={l1} className="logo" alt="decription"></img></Customlink>
       <ul className="nav__links" >
-      <Customlink href="/" className="li-in-nav" >Home</Customlink>
-      <Customlink href="https://adamsaadi.github.io/Work" className="li-in-nav">Work</Customlink>
-      <Customlink href="https://adamsaadi.github.io/Connect" className="li-in-nav">Connect</Customlink>
+        <Customlink href="/" className="li-in-nav" >Home</Customlink>
+        <Customlink href="/Work" className="li-in-nav">Work</Customlink>
+        <Customlink href="/Connect" className="li-in-nav">Connect</Customlink>
       </ul>
       <Customlink href="/Navhum" >
-        <button className="hamburger"  type="none">
+        <button className="hamburger" type="none">
           <span className="lala"></span>
           <span className="lala2"></span>
           <span className="lala3"></span>
         </button>
-        </Customlink>
+      </Customlink>
     </nav>
-        
-    )
-    }
-function Customlink ({href,children, ...props}) {
-  const path = window.location.pathname 
 
-  return(
+  )
+}
+function Customlink({ href, children, ...props }) {
+  const path = window.location.pathname
+
+  return (
     <li className={path === href ? "active" : ""}>
-      <a href= {href} {...props}>
+      <a href={href} {...props}>
         {children}
       </a>
     </li>
