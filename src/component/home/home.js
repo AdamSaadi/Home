@@ -1,7 +1,6 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import lo from '../images/_MG_4743with-colore-corect.png'
 import loo from "../../images/photoToMe.png"
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
             Hi, I am <strong>Adam Saadi</strong>
           </h1>
           <p className="section__subtitle section__subtitle--intro"> Developer  / Designer</p>
-          <img src={lo} alt=" Adam Saadi smiling" className="intro__img"></img>
+          <img src="..\..\images\_MG_4743with-colore-corect.png" alt=" Adam Saadi smiling" className="intro__img"></img>
         </section>
         <section className="my-services" id="services">
           <h2 className="section__title section__title--services">What I do</h2>
