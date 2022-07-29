@@ -10,11 +10,13 @@ import Thisweb from "./component/theworkpage/ThisWeb";
 import "./index.css"
 import Navhum from "./component/sure/nav/Navhum";
 import StockPrice from "./component/theworkpage/StockPrice";
-import { HashRouter as Router } from "react-router-dom";
 
 export default function App() {
     let Component
     switch (window.location.pathname) {
+        case "/Work":
+            Component = <Work />
+            break;
         case "/Connect":
             Component = <Contact />
             break;
@@ -46,9 +48,6 @@ export default function App() {
     }
     return (
         <div>
-        <Router path="/Work">
-             <Work />
-        </Router>
             {Component}
         </div>
     )

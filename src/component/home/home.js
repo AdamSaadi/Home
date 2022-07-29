@@ -1,6 +1,8 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
+import l1 from "../../images/_MG_4743with-colore-corect.png"
+import l2 from "../../images/photoToMe.png"
 export default function Home() {
   return (
     <>
@@ -12,7 +14,7 @@ export default function Home() {
             Hi, I am <strong>Adam Saadi</strong>
           </h1>
           <p className="section__subtitle section__subtitle--intro"> Developer  / Designer</p>
-        <img src="/images/_MG_4743with-colore-corect.png" alt=" Adam Saadi smiling" className="intro__img"></img>
+        <img src={l1} alt=" Adam Saadi smiling" className="intro__img"></img>
         </section>
         <section className="my-services" id="services">
           <h2 className="section__title section__title--services">What I do</h2>
@@ -62,7 +64,7 @@ export default function Home() {
             </p>
           </div>
 
-          <img src="/images/photoToMe.png"  alt="Adam leaning against a bus" className="about-me__img"></img> */
+          <img src={l2}  alt="Adam leaning against a bus" className="about-me__img"></img> 
 
         </section>
       </div>
@@ -81,3 +83,4 @@ function Customlink({ href, children, ...props }) {
     </li>
   )
 }
+/*import lo from "../../images/_MG_4743with-colore-corect.png" */
