@@ -294,7 +294,7 @@ margin-left: 40px;
 
 .my-services {
     background-color: var(--clr-dark);
-/*    background-image: url('.\\Home\\src\\images\\background.jpg');*/
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-blend-mode: multiply; 
     color: var(--clr-light);
@@ -487,7 +487,7 @@ margin-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-/*    background-image: url('D:\working-stuff\the\public\images\tele.jpg') ;*/
+    background-image: url('images/tele.jpg') ;
     background-size: cover;
 }
 .contact, .contant{
