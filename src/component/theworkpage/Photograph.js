@@ -54,10 +54,6 @@ export default function Photograph() {
                 <img src={l9} alt="a beauty red flower"></img>
                 <p>Beautiful red flower</p>
             </div>
-            <div class="portfolio-item-individual">
-
-                <p>An image of a person sitting on the street with color correction</p>
-            </div>
             <Foot />
         </div>
     )
