@@ -1,6 +1,5 @@
 {
   "name": "home",
-  "homepage": "http://adamsaadi.github.io/Home",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -68,8 +67,6 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "eject": "node scripts/eject.js"
