@@ -1,6 +1,5 @@
 {
   "name": "home",
-  "homepage": "http://adamsaadi.github.io/Home",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
