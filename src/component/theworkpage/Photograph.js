@@ -10,6 +10,7 @@ import l6 from "../../images/_MG_1033.png"
 import l7 from "../../images/YT.jpg"
 import l8 from "../../images/_MG_1321-01.png"
 import l9 from "../../images/20210506171144__MG_3336.jpg"
+import l11 from "../../images/ERE.JPG"
 export default function Photograph() {
     return (
         <div>
@@ -53,6 +54,10 @@ export default function Photograph() {
             <div class="portfolio-item-individual">
                 <img src={l9} alt="a beauty red flower"></img>
                 <p>Beautiful red flower</p>
+            </div>
+            <div class="portfolio-item-individual">
+                <img src={l11} alt="a beauty red flower"></img>
+                <p>Someone sitting on the street</p>
             </div>
             <Foot />
         </div>

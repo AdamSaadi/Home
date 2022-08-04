@@ -66,7 +66,7 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "cross-env PORT=8080 react-scripts start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "eject": "node scripts/eject.js"
@@ -90,6 +90,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "eslint": "^8.20.0",
     "gh-pages": "^4.0.0",

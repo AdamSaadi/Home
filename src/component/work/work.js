@@ -58,15 +58,15 @@ export default function Work() {
 
   )
 }
-/*                <a href="/work/Nft" class="portfolio__item">
-                <Customlink href="/Nft"><img src="images\nnfftt.png" alt="" class="portfolio__img"></img></Customlink>
-                </a> 
-                <a href="/work/python" class="portfolio__item">
-                <Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
-                </a> 
+/*
+<a href="/work/Nft" class="portfolio__item">
+<Customlink href="/Nft"><img src="images\nnfftt.png" alt="" class="portfolio__img"></img></Customlink>
+</a> 
 <a href="/work/python" class="portfolio__item">
 <Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
 </a> 
-
+<a href="/work/python" class="portfolio__item">
+<Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
+</a> 
 */
 
