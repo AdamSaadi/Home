@@ -1,4 +1,5 @@
 {
+  "homepage": "http://AdamSaadi.github.io/Home",
   "name": "home",
   "version": "0.1.0",
   "private": false,
@@ -24,7 +25,6 @@
     "dotenv-expand": "^5.1.0",
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
-    "eslint": "^8.3.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
@@ -69,7 +69,10 @@
     "start": "cross-env PORT=8080 react-scripts start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "eject": "node scripts/eject.js"
+    "eject": "node scripts/eject.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -92,7 +95,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
-    "eslint": "^8.20.0",
+    "eslint": "^8.21.0",
     "gh-pages": "^4.0.0",
     "react-dev-utils": "^12.0.1"
   },
