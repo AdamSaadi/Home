@@ -51,6 +51,7 @@ export default function Work() {
             <Customlink href="/Photoshop"><img src={l6} alt="" class="portfolio__img"></img></Customlink>
           </a>
 
+
         </div>
       </section>
       <Foot />
@@ -68,5 +69,8 @@ export default function Work() {
 <a href="/work/python" class="portfolio__item">
 <Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
 </a> 
+<a href="/work/Hacking" class="portfolio__item">
+<Customlink href="/Hacking"><img src={l7} alt="" class="portfolio__img"></img></Customlink>
+</a>
 */
 
