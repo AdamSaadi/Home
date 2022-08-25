@@ -11,7 +11,6 @@ import "./index.css"
 import Navhum from "./component/sure/nav/Navhum";
 import StockPrice from "./component/theworkpage/StockPrice";
 
-
 export default function App() {
     
         let Component
