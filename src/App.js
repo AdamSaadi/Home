@@ -10,6 +10,7 @@ import Thisweb from "./component/theworkpage/ThisWeb";
 import "./index.css"
 import Navhum from "./component/sure/nav/Navhum";
 import StockPrice from "./component/theworkpage/StockPrice";
+import { HashRouter } from "react-router-dom";
 
 export default function App() {
     
@@ -49,7 +50,9 @@ export default function App() {
     }
     return (
         <div>
+            <HashRouter>
             {Component}
+            </HashRouter>
         </div>
     )
 }
