@@ -1,5 +1,5 @@
 {
-  "homepage": "http://AdamSaadi.github.io/Home/",
+  "homepage": "http://AdamSaadi.github.io",
   "name": "home",
   "version": "0.1.0",
   "private": true,
@@ -70,7 +70,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "eject": "node scripts/eject.js",
-    "deploy": "gh-pages -d build",
+    "deploy": "production -d build",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
