@@ -49,6 +49,7 @@ export default function App() {
             break;
     }
     return (
+        
         <div>
             <HashRouter>
             {Component}
