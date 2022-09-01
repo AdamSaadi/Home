@@ -51,7 +51,7 @@ export default function App() {
     return (
         
         <div>
-            <HashRouter>
+            <HashRouter basename="">
             {Component}
             </HashRouter>
         </div>
