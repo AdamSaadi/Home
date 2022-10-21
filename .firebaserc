@@ -1,7 +1,9 @@
 {
   "projects": {
-    "default": "adamsaadi-5ba34",
-    "development": "adamsaadi-5ba34"
+    "default": "adam-2c0c7",
+    "development": "adamsaadi-5ba34",
+    "web": "adam-2c0c7",
+    "ll": "adam-saadi"
   },
   "targets": {},
   "etags": {}
