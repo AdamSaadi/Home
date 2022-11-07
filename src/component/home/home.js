@@ -23,7 +23,7 @@ export default function Home() {
             <div className="service">
               <h3>Website development</h3>
               <p>
-                Full-stack development, I build high quality websites and software tools utilizing different platforms such as React, HTML and Css.
+                Full-stack development, I build high quality websites and software tools utilizing different tools such as React, HTML and Css.
                 I customize your website to be fast, reliable and to reflect your preferences.
               </p>
             </div>
