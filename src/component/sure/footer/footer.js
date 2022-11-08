@@ -14,7 +14,7 @@ export default function Foot() {
                     </a>
                 </li>
                 <li className='social-list__item'>
-                    <a className='social-list__link' href="https://twitter.com/adamsaa99850452?s=09">
+                    <a className='social-list__link' href="https://twitter.com/callme_ada_m?t=6Uv0ssyldLT_mjGychavYA&s=08">
                         <i className="fab fa-twitter"></i>
                     </a>
                 </li>
@@ -27,6 +27,11 @@ export default function Foot() {
                 <li className='social-list__item'>
                     <a className='social-list__link' href="https://github.com/AdamSaadi">
                         <i className="fab fa-github"></i>
+                    </a>
+                </li>
+                <li className='social-list__item'>
+                    <a className='social-list__link' href="https://github.com/AdamSaadi">
+                        <i className="SiFiverr"></i>
                     </a>
                 </li>
             </ul>

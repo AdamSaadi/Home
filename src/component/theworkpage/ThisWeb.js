@@ -10,7 +10,7 @@ export default function Thisweb() {
             <Nav />
             <section class="intro" >
                 <h1 class="section__title section__title--intro">
-                    This portfolio website  <strong>using React</strong>
+                      portfolio  website <strong>    </strong>
                 </h1>
                 <p class="section__subtitle section__subtitle--intro">React Web Development </p>
                 <img src={l1} alt="" class="intro__img"></img>

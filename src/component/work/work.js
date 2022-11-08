@@ -23,7 +23,7 @@ export default function Work() {
     <><Nav />
       <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <p class="section__subtitle section__subtitle--work">Here is a selection of my work</p>
 
         <div class="portfolio">
 
