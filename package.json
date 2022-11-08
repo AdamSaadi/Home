@@ -1,7 +1,8 @@
 {
+  "homepage": "/",
   "name": "home",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -24,11 +25,13 @@
     "dotenv-expand": "^5.1.0",
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
-    "eslint": "^8.3.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
+    "firebase": "^9.9.4",
     "fs-extra": "^10.0.0",
+    "hash-router": "^0.4.0",
+    "heroku": "^7.65.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
@@ -47,7 +50,6 @@
     "react-dom": "^18.2.0",
     "react-refresh": "^0.11.0",
     "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.12.0",
     "reactjs-popup": "^2.0.5",
@@ -66,12 +68,13 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "cross-env PORT=8080 react-scripts start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "eject": "node scripts/eject.js"
+    "eject": "node scripts/eject.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "dev": "next"
   },
   "eslintConfig": {
     "extends": [
@@ -92,10 +95,12 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
-    "eslint": "^8.20.0",
+    "eslint": "^8.21.0",
     "gh-pages": "^4.0.0",
-    "react-dev-utils": "^12.0.1"
+    "react-dev-utils": "^12.0.1",
+    "react-router-dom": "^5.3.3"
   },
   "jest": {
     "roots": [
