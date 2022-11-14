@@ -470,6 +470,7 @@ margin-left: 40px;
     margin: 0 auto;
 }
 
+
 .portfolio-item-individual p {
     max-width: 600px;
     margin-left: auto;
@@ -727,3 +728,7 @@ margin-left: 40px;
     width: 100%;
 }
 
+/* some changes over some speice element*/
+.some-b-text{
+    font-weight: bold;
+}

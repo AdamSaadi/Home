@@ -17,13 +17,13 @@ export default function Photograph() {
             <Nav />
             <section class="intro" >
                 <h1 class="section__title section__title--intro">
-                    photography<strong>section of my photo</strong>
+                    Photography<strong>Section of my photo</strong>
                 </h1>
-                <p class="section__subtitle section__subtitle--intro">Group of photos taken by my lence</p>
+                <p class="section__subtitle section__subtitle--intro"> By my lence 📸</p>
                 <img src={l1} alt="" class="intro__img"></img>
             </section>
             <div class="portfolio-item-individual">
-                <p>Here are some pictures I'm proud of. </p>
+                <p className="some-b-text">Here are some pictures I'm proud of. </p>
                 <img src={l2} alt="this shoot is for a  black BMW car"></img>
                 <p>A black BMW car is the subject of this shoot</p>
             </div>

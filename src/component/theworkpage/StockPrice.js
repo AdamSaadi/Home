@@ -2,20 +2,20 @@ import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
 import l1 from "../../images/2103569.png"
-import l2 from "../../images/the-stock.png"
-import l3 from "../../images/the-stock-info.png"
-import l4 from "../../images/the-stock-table.png"
-import l5 from "../../images/the-stock-graph.png"
+import l2 from "../../images/the-stock.jpg"
+import l3 from "../../images/the-stock-info.jpg"
+import l4 from "../../images/the-stock-table.jpg"
+import l5 from "../../images/the-stock-graph.jpg"
 export default function StockPrice() {
     return (
         <div>
             <Nav />
             <section class="intro" >
                 <h1 class="section__title section__title--intro">
-                    Data Science<strong> Python App</strong>
+                Stock Price <strong> Data Science</strong>
                 </h1>
                 <p class="section__subtitle section__subtitle--intro">
-                    Stock Price python project</p>
+                     python project</p>
                 <img src={l1} alt="" class="intro__img"></img>
             </section>
             <div class="portfolio-item-individual">

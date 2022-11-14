@@ -5,7 +5,7 @@ import l1 from "../../images/py-stock.png"
 import l2 from "../../images/air-web-project1.png"
 import l3 from "../../images/Untitled-3.png"
 import l4 from "../../images/untitled-(1RR-of-1).png"
-import l5 from "../../images/easy.jpg"
+import l5 from "../../images/This-web.jpg"
 import l6 from "../../images/photoshop-work.png"
 export default function Work() {
   function Customlink({ href, children, ...props }) {
