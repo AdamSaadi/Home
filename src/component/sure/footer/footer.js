@@ -29,11 +29,6 @@ export default function Foot() {
                         <i className="fab fa-github"></i>
                     </a>
                 </li>
-                <li className='social-list__item'>
-                    <a className='social-list__link' href="https://github.com/AdamSaadi">
-                        <i className="SiFiverr"></i>
-                    </a>
-                </li>
             </ul>
             <p className="copy">&copy; Copyright 2022 Adam Saadi </p>
 
