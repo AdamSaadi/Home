@@ -1,5 +1,5 @@
 import React from "react";
-import l1 from "../../../images/Untitled-2.png"
+import l1 from "../../../images/Nav-logo.png"
 export default function Nav() {
   return (
     <nav className="nnn">

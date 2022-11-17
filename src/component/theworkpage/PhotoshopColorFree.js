@@ -1,9 +1,9 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "../../images/Untitled-5.png"
-import l2 from "../../images/dina.png"
-import l3 from "../../images/Untitled-43.png"
+import l1 from "../../images/PhotoshopColorFree-face.png"
+import l2 from "../../images/PhotoshopColorFree-water.png"
+import l3 from "../../images/PhotoshopColorFree-skeleton.png"
 export default function PhotoshopColorFree() {
     return (
         <div>

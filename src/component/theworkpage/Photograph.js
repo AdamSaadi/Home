@@ -1,15 +1,16 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "../../images/untitled-3ER334(1-of-1).png"
-import l2 from "../../images/untitleWWd-(1-of-1).png"
-import l3 from "../../images/KIH.jpg"
-import l4 from "../../images/untitled-3ER334(1-of-1).png"
-import l5 from "../../images/untitleEd-(1-of-1).png"
-import l6 from "../../images/_MG_1033.png"
-import l7 from "../../images/YT.jpg"
-import l8 from "../../images/_MG_1321-01.png"
-import l9 from "../../images/20210506171144__MG_3336.jpg"
+import l1 from "../../images/Photograph-book.png"
+import l2 from "../../images/Photography-BMW.png"
+import l3 from "../../images/Photograph-light.jpg"
+import l4 from "../../images/Photograph-book.png"
+import l5 from "../../images/Photograph-guitar.png"
+import l6 from "../../images/Photograph-ice.png"
+import l7 from "../../images/Photograph-rook.jpg"
+import l8 from "../../images/Photography-flower.png"
+import l9 from "../../images/photograph-pape.JPG"
+import l10 from "../../images/Photography-red-flower.jpg"
 
 export default function Photograph() {
     return (
@@ -52,7 +53,11 @@ export default function Photograph() {
                 <p>several white flowers with dark theme should be shot on the ground</p>
             </div>
             <div class="portfolio-item-individual">
-                <img src={l9} alt="a beauty red flower"></img>
+                <img src={l9} alt=""></img>
+                <p></p>
+            </div>
+            <div class="portfolio-item-individual">
+                <img src={l10} alt="a beauty red flower"></img>
                 <p>Beautiful red flower</p>
             </div>
 

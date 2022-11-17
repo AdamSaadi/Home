@@ -1,8 +1,8 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import L1 from "../../images/_MG_4743with-colore-corect.png"
-import L2 from "../../images/photoToMe.png"
+import L1 from "../../images/Home-me.png"
+import L2 from "../../images/Home-photoToMe.png"
 export default function Home() {
   return (
     <>

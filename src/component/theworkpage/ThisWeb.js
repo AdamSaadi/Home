@@ -1,9 +1,9 @@
 import React from "react";
 import Foot from "../sure/footer/footer";
 import Nav from "../sure/nav/nav";
-import l1 from "../../images/react-logo.png"
-import l2 from "../../images/home.js - the - Visual Studio Code 6_12_2022 10_07_27 AM.png"
-import l3 from "../../images/sta-je-web-hosting.jpg"
+import l1 from "../../images/my-web-react-logo.png"
+import l2 from "../../images/my-web-code.png"
+import l3 from "../../images/my-web-hosting.jpg"
 export default function Thisweb() {
     return (
         <div>
