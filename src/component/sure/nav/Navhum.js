@@ -5,7 +5,7 @@ export default function Navhum() {
     <body className="navhum-body">
       <div className="nsn">
         <ul className="Hum-elements" >
-          <Customlink href="/" ><li className="Hum-element">Home</li></Customlink>
+          <Customlink href="/" ><li className="Hum-element">Hoome</li></Customlink>
           <Customlink href="/Work"><li className="Hum-element">Work</li></Customlink>
           <Customlink href="/Connect" ><li className="Hum-element">Connect</li></Customlink>
         </ul>

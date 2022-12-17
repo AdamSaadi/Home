@@ -67,6 +67,7 @@ strong { font-weight: var(--fw-bold) }
 /* Buttons */
 
 .btn {
+
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
@@ -78,6 +79,7 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+
 }
 
 .btn:hover {
@@ -298,12 +300,13 @@ margin-left: 40px;
     background-size: cover;
     background-blend-mode: multiply; 
     color: var(--clr-light);
-    text-align: center;
+
 }
 
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
+    text-align: center;
 }
 
 .section__title--services::after {
@@ -318,25 +321,32 @@ margin-left: 40px;
 
 .services {
     margin-bottom: 4em;
+
 }
 
 .service {
     max-width: 500px;
     margin: 0 auto;
 }
-
+@media (max-width: 800px) {
+    .service {
+        margin-top: 3.125em;
+    }
+}
 @media (min-width: 800px) {
     .services {
         display: flex;
-        max-width: 1000px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
     
+
     .service + .service {
         margin-left: 2em;
     }
 }
+
 
 
 .about-me {
@@ -349,6 +359,8 @@ margin-left: 40px;
 }
 
 @media (min-width: 600px) {
+
+
 
     .about-me {
         display: grid;
@@ -392,11 +404,13 @@ margin-left: 40px;
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    background-color: black;
 }
 
 .portfolio__img {
@@ -408,13 +422,19 @@ margin-left: 40px;
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
+    
 }
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    opacity: 0.2;
+ 
 }
+
+
+/*the text over work*/
+
 
 
 /* footer */
@@ -427,7 +447,7 @@ margin-left: 40px;
     font-size: var(--fs-h3);
 
 }
-
+ 
 .footer a { 
     color: inherit;
     text-decoration: none;
@@ -491,6 +511,7 @@ margin-left: 40px;
     background-image: url('images/tele.jpg') ;
     background-size: cover;
 }
+
 .contact, .contant{
     max-width: 100%;
     display: flex;
@@ -501,6 +522,9 @@ margin-left: 40px;
     display: none;
  }
 @media (max-width: 900px) {
+    .page5 {
+        background-image: url('images/telephone.jpg') ;
+    }
     .contact, .contant{
         display: block;
     }

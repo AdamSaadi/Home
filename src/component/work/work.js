@@ -26,30 +26,49 @@ export default function Work() {
         <p class="section__subtitle section__subtitle--work">Here is a selection of my work</p>
 
         <div class="portfolio">
+            <div className="portfoilo__item__dev">
+                <div className="text__cntainer">
+                   <p className="work_item_text">StockPrice-python</p>
+                </div>
+                <a href="/work/StockPrice" class="portfolio__item">
+                   <Customlink href="/StockPrice"><img src={l1} alt="e" class="portfolio__img"></img></Customlink>
+                </a>
+            </div>
 
-          <a href="/work/StockPrice" class="portfolio__item">
-            <Customlink href="/StockPrice"><img src={l1} alt="e" class="portfolio__img"></img></Customlink>
-          </a>
-
+          <div>
+            <p className="work_item_text">hhh</p>
           <a href="/work/AirblbWebsite" class="portfolio__item">
             <Customlink href="/Air"><img src={l2} alt="r" class="portfolio__img"></img></Customlink>
           </a>
+          </div>
 
+          <div>
+            <p className="work_item_text">hhh</p>
           <a href="/work/potoshopColorFree" class="portfolio__item" >
             <Customlink href="/PhotoshopColorFree"><img src={l3} alt="e" class="portfolio__img"></img></Customlink>
           </a>
+          </div>
 
+          <div>
+            <p className="work_item_text">hhh</p>
           <a href="/work/Photograph" class="portfolio__item">
             <Customlink href="/Photograph"><img src={l4} alt="e" class="portfolio__img"></img></Customlink>
           </a>
+          </div>
 
+          <div>
+            <p className="work_item_text">hhh</p>
           <a href="/work/Thisweb" class="portfolio__item">
             <Customlink href="/Thisweb"><img src={l5} alt="" class="portfolio__img"></img></Customlink>
           </a>
+          </div>
 
+          <div>
+            <p className="work_item_text">hhh</p>
           <a href="/work/Photoshop" class="portfolio__item">
             <Customlink href="/Photoshop"><img src={l6} alt="" class="portfolio__img"></img></Customlink>
           </a>
+          </div>
 
 
         </div>
@@ -73,4 +92,3 @@ export default function Work() {
 <Customlink href="/Hacking"><img src={l7} alt="" class="portfolio__img"></img></Customlink>
 </a>
 */
-

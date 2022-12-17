@@ -17,7 +17,8 @@ export default function PhotoshopColorFree() {
                 <img src={l1} alt="" class="intro__img"></img>
             </section>
             <div class="portfolio-item-individual">
-                <p>During this project, I worked with Dina Saadi, a great designer. The work focused on outline coloring. There were three projects I worked on. Down there, you can see them.
+                <p>
+                    During this project, I worked with Dina Saadi, a great designer. The work focused on outline coloring. There were three projects I worked on. Down there, you can see them.
                 </p>
                 <p><a href="http://www.dinasaadi.com/"> her work </a></p>
                 <img src={l1} alt=""></img>

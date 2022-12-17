@@ -11,7 +11,6 @@ import l7 from "../../images/Photograph-rook.jpg"
 import l8 from "../../images/Photography-flower.png"
 import l9 from "../../images/photograph-pape.JPG"
 import l10 from "../../images/Photography-red-flower.jpg"
-
 export default function Photograph() {
     return (
         <div>
