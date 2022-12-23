@@ -12,8 +12,8 @@ export default function Contact() {
                 <section className="contact">
                     <div >
                         <h2 className="the-text-in-top">Contact Us</h2>
-                        <p className="the-text-in-top-sm">Got a question? We'd love to hear from you. Send us a message and we will respond as soon as possible.</p>
-                        <p className="the-text-in-top-sm">Book an interview now.</p>
+                        <p className="the-text-in-top-sm">Got a question? I'd love to hear from you. Send me a message and I will respond as soon as possible.</p>
+                        <p className="the-text-in-top-sm">Book an interview now, or see my Fiverr account to work together</p>
                     </div>
                     <div className="containerr">
                         <div className="contactInfo">

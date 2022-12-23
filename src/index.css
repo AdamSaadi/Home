@@ -76,10 +76,12 @@ strong { font-weight: var(--fw-bold) }
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
+    position: relative;
+    left: 45%; 
     transition: transform 200ms ease-in-out;
-
 }
 
 .btn:hover {
@@ -291,6 +293,15 @@ margin-left: 40px;
     }
 }
 
+/*Nav hum */
+.navhum-body{
+    display: none;
+    opacity: 0;
+}
+
+.nsn::after .navhum-body{
+opacity: 1;
+}
 
 /*  My services section  */
 
@@ -332,6 +343,10 @@ margin-left: 40px;
     .service {
         margin-top: 3.125em;
     }
+    .btn{
+        left: 35%;
+    }
+
 }
 @media (min-width: 800px) {
     .services {
@@ -359,7 +374,6 @@ margin-left: 40px;
 }
 
 @media (min-width: 600px) {
-
 
 
     .about-me {
@@ -434,9 +448,24 @@ margin-left: 40px;
 
 
 /*the text over work*/
+.baba{
+    position: relative;
+}
+.text_here{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: -50px 0 0 -50px;
+    color: var(--clr-light);
+   
+    opacity: 0;
 
 
-
+}
+.baba:hover .text_here{
+    opacity: 1;
+}
 /* footer */
 
 .footer {
@@ -501,9 +530,10 @@ margin-left: 40px;
     font-size: 16px;
     color:  var(--clr-light);
 }
+
+
 /*this is the connection section */
 .page5{
-    /*position: relative;*/
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -511,7 +541,6 @@ margin-left: 40px;
     background-image: url('images/tele.jpg') ;
     background-size: cover;
 }
-
 .contact, .contant{
     max-width: 100%;
     display: flex;
@@ -523,7 +552,7 @@ margin-left: 40px;
  }
 @media (max-width: 900px) {
     .page5 {
-        background-image: url('images/telephone.jpg') ;
+        background-image: url('images/cooperation1.0.jpg') ;
     }
     .contact, .contant{
         display: block;
@@ -533,11 +562,15 @@ margin-left: 40px;
     }
     .the-text-in-top{
         display: block;
+        color: var(--clr-dark);
     }
     .the-text-in-top-sm{
         display: block;
+        color: var(--clr-dark);
     }
-
+    .contactInfo{
+        color: var(--clr-dark);
+    }
     }
     @media (min-width: 900px) {
         .the-text-in-top-sm{
@@ -546,18 +579,16 @@ margin-left: 40px;
 
     }
 .the-text-in-top{
-    color: var(--clr-light);
     text-align: center;
     font-size: 45px;
     text-transform: capitalize;
     margin-bottom: 30px;
 }
 .the-text-in-top-sm{
-    color: var(--clr-light);
     text-align: center;
 }
 .containerr{
-    color: #fff;
+    color: var(--clr-light);
     max-width: 500px;
     line-height: 65px;
     padding-left: 50px;

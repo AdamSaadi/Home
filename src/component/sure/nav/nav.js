@@ -2,6 +2,7 @@ import React from "react";
 import l1 from "../../../images/Nav-logo.png"
 export default function Nav() {
   return (
+    <div>
     <nav className="nnn">
       <Customlink href="/"><img src={l1}  className="logo" alt="decription"></img></Customlink>
       <ul className="nav__links" >
@@ -18,7 +19,29 @@ export default function Nav() {
       </Customlink>
     </nav>
 
+
+</div>
   )
+
+  function Customlink({ href, children, ...props }) {
+    const path = window.location.pathname
+  
+    return (
+      <li className={path === href ? "active" : ""}>
+        <a href={href} {...props}>
+          {children}
+        </a>
+      </li>
+    )
+  }
+
+
+
+
+
+
+
+  
 }
 function Customlink({ href, children, ...props }) {
   const path = window.location.pathname
@@ -36,4 +59,15 @@ function Customlink({ href, children, ...props }) {
     "deploy": "gh-pages -d build",
         "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js", */
+    "test": "node scripts/test.js", 
+    
+          <body className="navhum-body">
+      <div className="nsn">
+       <ul className="Hum-elements" >
+          <Customlink href="/" ><li className="Hum-element">Hoome</li></Customlink>
+          <Customlink href="/Work"><li className="Hum-element">Work</li></Customlink>
+          <Customlink href="/Connect" ><li className="Hum-element">Connect</li></Customlink>
+        </ul>
+      </div>
+      </body>
+    */
