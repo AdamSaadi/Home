@@ -8,20 +8,21 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: "Source Sans Pro",sans-serif;
+    --ff-secondary: "Source Code Pro",monospace;
+    
     
     --fw-reg: 300;
     --fw-bold: 900;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #75b1ff;
+    --clr-dark: #212121;
+    --clr-accent:  #75b1ff;; 
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-body: 1.20rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
@@ -31,8 +32,8 @@
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-h3: 1.4rem;
+        --fs-body: 1.2rem;
     }
 }
 
@@ -40,6 +41,7 @@
 
 body {
     background: var(--clr-light);
+    
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -104,6 +106,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+
 }
 
 .section__title--intro {
@@ -113,6 +116,7 @@ h3 { font-size: var(--fs-h3) }
 .section__title--intro strong {
     display: block;
 }
+
 
 .section__subtitle {
     margin: 0;
@@ -142,16 +146,28 @@ header {
 }
 
 .logo {
-    max-width: 140px;
-    margin-top: 8px;
+    max-width: 144px;
+    padding-left: 10px;
+    margin-left: 9px;
 }
-.nnn{
+.logo-pc{
+    max-width: 144px;
+    padding-left: 10px;
+    margin-left: 9px;
+}
+.navbar {
+    
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
     display: flex;
-    justify-content : space-between;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.925);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, );
+  }
 
-}
 @media (max-width: 1040px){
     .nav__links,.li-in-nav,.li-in-nav::after{
          display: none;
@@ -159,19 +175,24 @@ header {
         .hamburger,.lala , .lala2  , .lala3{
             display: block;
         }
+       .logo-pc{display: none;}
+
 }
 @media (min-width: 1040px){
     .nav__links,.li-in-nav{
          display: flex;
         }
-
+        .logo{
+            display: none;
+        }
+        
         .hamburger,.lala , .lala2  , .lala3{
             display: none;
         }
 }
 
 .nav__links{
-    margin-right: 160px;
+    margin-right: 220px;
 
 }
 .nav__links ,
@@ -180,7 +201,7 @@ header {
     text-align: center;
     font-family: var(--ff-primary);
     font-weight: 500;
-    font-size: 18px;
+    font-size: var(--fs-h3);
     color: rgb(48, 48, 48);
     text-decoration: none;
     width: 100%;
@@ -189,7 +210,6 @@ header {
     list-style: none;
 
 }
-
 .li-in-nav{
     display: flex;
     position: relative;
@@ -197,6 +217,12 @@ header {
     color: #111;
     letter-spacing: .5px;
     padding: 0 10px;
+    transition: 0.3s ease-in-out; 
+    font-size: var(--fs-h3);
+    
+}
+.li-in-nav:hover{
+    color: var(--clr-accent);
 }
 .li-in-nav::after{
     content: "";
@@ -208,10 +234,16 @@ header {
     left: 0;
     bottom: -10px;
     transition: 0.45s;
+    
 }
 .li-in-nav:hover::after{
+    content: "";
     width: 100%;
+    background-color: var(--clr-accent);
+    
+    
 }
+
 
 .li-in-nav{
 margin-left: 40px;
@@ -221,7 +253,10 @@ margin-left: 40px;
 }
 
 .hamburger {
-    position: relative;
+    position:absolute;
+    top:10px;
+    right: 10px;
+
     z-index: 1;
     user-select: none;
     appearance: none;
@@ -253,6 +288,7 @@ margin-left: 40px;
 
 .intro {
     position: relative;
+    
 }
 
 .intro__img {
@@ -261,6 +297,9 @@ margin-left: 40px;
 
 .section__subtitle--intro {
     display: inline-block;
+    font-size: 1.5rem;
+    
+
 }
 
 @media (min-width: 600px) {
@@ -268,6 +307,7 @@ margin-left: 40px;
         display: grid;
         width: min-content;
         margin: 0 auto;
+        margin-top: 70px;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
@@ -290,6 +330,7 @@ margin-left: 40px;
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+        
     }
 }
 
@@ -318,7 +359,9 @@ opacity: 1;
     color: var(--clr-accent);
     position: relative;
     text-align: center;
+
 }
+
 
 .section__title--services::after {
     content: '';
@@ -344,14 +387,17 @@ opacity: 1;
         margin-top: 3.125em;
     }
     .btn{
-        left: 35%;
+        align-items: center;
     }
-
+.maybe{
+    display: flex;
+    align-items: center;
+}
 }
 @media (min-width: 800px) {
     .services {
         display: flex;
-        max-width: 1200px;
+        max-width: 1300px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -365,7 +411,7 @@ opacity: 1;
 
 
 .about-me {
-    max-width: 1000px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -413,6 +459,7 @@ opacity: 1;
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
+    padding-top: 158px;
 }
 
 .portfolio {
@@ -455,7 +502,7 @@ opacity: 1;
     font-size: 30px;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 33%;
     margin: -50px 0 0 -50px;
     color: var(--clr-light);
    
@@ -519,13 +566,20 @@ opacity: 1;
     margin: 0 auto;
 }
 
-
-.portfolio-item-individual p {
-    max-width: 600px;
+.portfolio-item-individual-top {
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+.portfolio-item-individual p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
 .copy{
     font-size: 16px;
     color:  var(--clr-light);
@@ -538,14 +592,18 @@ opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('images/tele.jpg') ;
+    background-image: url('images/tele-1.jpg') ;
     background-size: cover;
+    background-color: #000;
+    
 }
 .contact, .contant{
     max-width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 158px;
 }
 .the-text-in-top{
     display: none;
@@ -591,7 +649,7 @@ opacity: 1;
     color: var(--clr-light);
     max-width: 500px;
     line-height: 65px;
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 18px;
 }
 
@@ -724,66 +782,60 @@ opacity: 1;
     width: 28px;
     left: 80%;
 }
-.navhum-body {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-}
 
-
-.nsn{
-    background: var(--clr-dark);
-    position: fixed;
-    color: var(--clr-light);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    list-style: none;
-}
-.Hum-element{
-
-    color: var(--clr-light);
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-h2);
-
-
-}
-.Hum-element:hover{
-    color: var(--clr-accent);
-    font-size: 4.2em; 
-      transition: 0.5s;
-
-}
-
-
-.Hum-elements{
-    list-style: none;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-evenly;
+/*tryinng to make the sidenav */
+.mobile-navbar{
+    display: flex; /* This makes the parent div a flex container */
+    justify-content: center; /* This centers the child div along the main axis (horizontally) */
     align-items: center;
-    margin: 0;
-    padding: 0;
-}
-.Hum-element::before{
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: var(--clr-accent);
-    z-index: 1;
-    overflow: hidden;
-    text-shadow: 0  0 2px var(--clr-accent);
-    transition: all 480ms ease-in-out;
-    font-weight: bold;
-}
-.Hum-element:hover:before{
-    width: 100%;
+
 }
 
-/* some changes over some speice element*/
-.some-b-text{
+.thehole {
+    width: 250px; /* adjust as needed */
+    position: fixed; /* make the navbar stay in the same place */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #2e2e2e; /* change to your desired color */
+    padding: 20px;
+    color:white;
+  }
+  
+  .Hm-elements {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove default margins */
+    padding: 0; /* remove default padding */
+  }
+  .wow{
+    text-align: center;
+  }
+  .Hm-element {
+    font-size: var(--fs-h2); /* change to your desired font size */
+    margin-bottom: 70px; /* add some spacing between elements */
+    margin-top: 25px;;
+    display: inline-block;
     font-weight: bold;
-}
+    color:var(--clr-dark);
+    transition: ease-in 0.16s;
+    transition: ease-out 0.2s;
+  }
+
+  .Hm-element:hover{
+    color: var(--clr-accent);
+    font-size:var(--fs-h1) ;
+
+  }
+  
+  .Hm-element a {
+    color: white; /* change to your desired color */
+    text-decoration: none; /* remove underline */
+  }
+  
+  .Hm-element a:hover {
+    color: #a8a8a8; /* change to your desired hover color */
+    text-decoration: underline;
+  }
+  .selected{
+    color: var(--clr-accent);
+  }

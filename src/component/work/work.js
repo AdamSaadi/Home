@@ -5,8 +5,9 @@ import l1 from "../../images/work-py-stock.jpg"
 import l2 from "../../images/work-air-web.png"
 import l3 from "../../images/work-photoshop.jpg"
 import l4 from "../../images/work-photograph.png"
-import l5 from "../../images/work-This-web.jpg"
-import l6 from "../../images/work-m-photoshop.png"
+import l5 from "../../images/work-This-web.jpg" 
+import l6 from "../../images/work-m-photoshop.jpg"
+import l7 from "../../images/work-UI-UX.jpg"
 export default function Work() {
   function Customlink({ href, children, ...props }) {
     const path = window.location.pathname
@@ -64,31 +65,23 @@ export default function Work() {
           </div>
 
           <div className="baba">
-          <p className="text_here">photo -photoshop</p>
+          <p className="text_here">UI/UX Design</p>
+          <a href="/work/UI-UX Design" class="portfolio__item">
+            <Customlink href="/UIUXdesign"><img src={l7} alt="" class="portfolio__img"></img></Customlink>
+          </a>
+          </div>
+
+          <div className="baba">
+          <p className="text_here">photo photoshop</p>
           <a href="/work/Photoshop" class="portfolio__item">
             <Customlink href="/Photoshop"><img src={l6} alt="" class="portfolio__img"></img></Customlink>
           </a>
           </div>
 
-
-        </div>
+      </div>
       </section>
       <Foot />
     </>
 
   )
 }
-/*
-<a href="/work/Nft" class="portfolio__item">
-<Customlink href="/Nft"><img src="images\nnfftt.png" alt="" class="portfolio__img"></img></Customlink>
-</a> 
-<a href="/work/python" class="portfolio__item">
-<Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
-</a> 
-<a href="/work/python" class="portfolio__item">
-<Customlink href="/Python"><img src="images\hand-tracking.png" alt="" class="portfolio__img"></img></Customlink>
-</a> 
-<a href="/work/Hacking" class="portfolio__item">
-<Customlink href="/Hacking"><img src={l7} alt="" class="portfolio__img"></img></Customlink>
-</a>
-*/

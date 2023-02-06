@@ -11,9 +11,10 @@ export default function Contact() {
             <body class="page5">
                 <section className="contact">
                     <div >
-                        <h2 className="the-text-in-top">Contact Us</h2>
-                        <p className="the-text-in-top-sm">Got a question? I'd love to hear from you. Send me a message and I will respond as soon as possible.</p>
-                        <p className="the-text-in-top-sm">Book an interview now, or see my Fiverr account to work together</p>
+                        <h2 className="the-text-in-top">Get in Touch</h2>
+                        <p className="the-text-in-top-sm">We're always here to help. Whether you have a question, want to discuss a potential project, or just want to say hello, we'd love to hear from you.</p>
+                        <p className="the-text-in-top-sm">If you're interested in working together, please don't hesitate to reach out. You can also check out my Fiverr profile to book a project directly.</p>
+                        <p className="the-text-in-top-sm">Thank you for your interest, we look forward to connecting with you!</p>
                     </div>
                     <div className="containerr">
                         <div className="contactInfo">

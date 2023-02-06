@@ -22,6 +22,13 @@ export default function Foot() {
                 </li>
 
                 <li className='social-list__item'>
+                    <a className='social-list__link' href="https://www.youtube.com/channel/UCjamqXL0arU3Xv52vas2nxQ" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-youtube"></i>
+                    </a>
+                </li>
+
+
+                <li className='social-list__item'>
                     <a className='social-list__link' href="https://www.linkedin.com/in/adam-saadi-939565202" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
                     </a>
@@ -47,4 +54,10 @@ export default function Foot() {
         <a className='social-list__link' href="https://pinterest.com/@adamsaadi06as">
         <i className="fab fa-pinterest"></i>
         </a>
-    </li> */
+    </li> 
+                    <li className='social-list__item'>
+                    <a className='social-list__link' href="https://twitter.com/callme_ada_m?t=6Uv0ssyldLT_mjGychavYA&s=08" target="_blank" rel="noopener noreferrer">
+                       <Icon icon="simple-icons:tiktok" />
+                    </a>
+                </li>
+    */

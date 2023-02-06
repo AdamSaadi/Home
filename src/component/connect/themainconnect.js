@@ -14,9 +14,10 @@ export default function ContactForm() {
     return (
         <div className="contactForm">
             <div className="the-text-in-connection">
-                <h2>Contact Us</h2>
-                <p className="pisp">Got a question? We'd love to hear from you. Send us a message and we will respond as soon as possible.</p>
-                <p className="pisp">Book an interview now.</p>
+                <h2>Get in Touch</h2>
+                <p className="pisp">We're always here to help. Whether you have a question, want to discuss a potential project, or just want to say hello, we'd love to hear from you.</p>
+                <p className="pisp">If you're interested in working together, please don't hesitate to reach out. You can also check out my Fiverr profile to book a project directly.</p>
+                <p className="pisp">Thank you for your interest, we look forward to connecting with you!</p>
             </div>
             <form
                 onSubmit={sendemail}>

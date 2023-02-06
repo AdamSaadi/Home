@@ -8,12 +8,14 @@ import Photoshop from "./component/theworkpage/Photoshop";
 import Photograph from "./component/theworkpage/Photograph";
 import Thisweb from "./component/theworkpage/ThisWeb";
 import "./index.css"
-import Navhum from "./component/sure/nav/Navhum";
+import UIUXdesign from "./component/theworkpage/UIUXdesign";
 import StockPrice from "./component/theworkpage/StockPrice";
 import { HashRouter } from "react-router-dom";
 
+
+
 export default function App() {
-    
+
         let Component
         switch (window.location.pathname) {
         case "/Work":
@@ -40,8 +42,9 @@ export default function App() {
         case "/Thisweb":
             Component = <Thisweb />
             break;
-        case "/Navhum":
-            Component = <Navhum />
+
+        case "/UIUXdesign":
+            Component = <UIUXdesign />
             break;
 
         default:
