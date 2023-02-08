@@ -67,6 +67,13 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Buttons */
+.maybe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
 
 .btn {
 
@@ -81,8 +88,7 @@ strong { font-weight: var(--fw-bold) }
     text-align: center;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
-    position: relative;
-    left: 45%; 
+    position: relative; 
     transition: transform 200ms ease-in-out;
 }
 
@@ -148,7 +154,7 @@ header {
 .logo {
     max-width: 144px;
     padding-left: 10px;
-    margin-left: 9px;
+    margin-left: 0px;
 }
 .logo-pc{
     max-width: 144px;
@@ -162,7 +168,7 @@ header {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.925);
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, );
@@ -386,13 +392,7 @@ opacity: 1;
     .service {
         margin-top: 3.125em;
     }
-    .btn{
-        align-items: center;
-    }
-.maybe{
-    display: flex;
-    align-items: center;
-}
+
 }
 @media (min-width: 800px) {
     .services {
@@ -492,27 +492,34 @@ opacity: 1;
     opacity: 0.2;
  
 }
-
-
 /*the text over work*/
-.baba{
+.text-over-image-container{
     position: relative;
-}
-.text_here{
-    font-size: 30px;
+    text-align: center;
+  }
+  
+  
+  .text_here {
+    font-size: var(--fs-h3);
     position: absolute;
-    top: 50%;
-    left: 33%;
-    margin: -50px 0 0 -50px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--clr-light);
-   
     opacity: 0;
-
-
-}
-.baba:hover .text_here{
+  }
+  
+  .text-over-image-container:hover .text_here {
     opacity: 1;
+  }
+  .text-over-image-container:hover .portfolio__item .portfolio__img {
+    transform: scale(1.2);
+    opacity: 0.2;
 }
+
+  
+
+
 /* footer */
 
 .footer {
@@ -783,15 +790,23 @@ opacity: 1;
     left: 80%;
 }
 
-/*tryinng to make the sidenav */
-.mobile-navbar{
-    display: flex; /* This makes the parent div a flex container */
-    justify-content: center; /* This centers the child div along the main axis (horizontally) */
+.mobile-navbar {
+
+    display: flex;
+    justify-content: center;
     align-items: center;
 
-}
+  }
+  
+  .wow {
+    text-align: center;
+
+  }
+  
+
 
 .thehole {
+
     width: 250px; /* adjust as needed */
     position: fixed; /* make the navbar stay in the same place */
     top: 0;
@@ -802,14 +817,14 @@ opacity: 1;
     color:white;
   }
   
-  .Hm-elements {
+.Hm-elements {
     list-style: none; /* remove bullet points */
-    margin: 0; /* remove default margins */
-    padding: 0; /* remove default padding */
-  }
-  .wow{
-    text-align: center;
-  }
+        margin: 0; /* remove default margins */
+        padding: 0; /* remove default padding */
+        text-align: center;
+      }
+      
+
   .Hm-element {
     font-size: var(--fs-h2); /* change to your desired font size */
     margin-bottom: 70px; /* add some spacing between elements */

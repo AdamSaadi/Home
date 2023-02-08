@@ -28,51 +28,51 @@ export default function Work() {
 
         <div class="portfolio">
 
-            <div className="baba">
-                <p className="text_here">stock market-python</p>
+            <div className="text-over-image-container">
+                <p className="text_here">stock python</p>
                 <a href="/work/StockPrice" class="portfolio__item">
                    <Customlink href="/StockPrice"><img src={l1} alt="e" class="portfolio__img"></img></Customlink>
                 </a>
                 
             </div>
 
-            <div className="baba">
-          <p className="text_here">Air bob-React</p>
+            <div className="text-over-image-container">
+          <p className="text_here">React development</p>
           <a href="/work/AirblbWebsite" class="portfolio__item">
             <Customlink href="/Air"><img src={l2} alt="r" class="portfolio__img"></img></Customlink>
           </a>
           </div>
 
-          <div className="baba">
+          <div className="text-over-image-container">
           <p className="text_here">vector outline-Design</p>
            <a href="/work/potoshopColorFree" class="portfolio__item" >
              <Customlink href="/PhotoshopColorFree"><img src={l3} alt="e" class="portfolio__img"></img></Customlink>
             </a>
           </div>
 
-          <div className="baba">
-          <p className="text_here">photography-canon</p>
+          <div className="text-over-image-container">
+          <p className="text_here">photography</p>
           <a href="/work/Photograph" class="portfolio__item">
             <Customlink href="/Photograph"><img src={l4} alt="e" class="portfolio__img"></img></Customlink>
           </a>
           </div>
 
-          <div className="baba">
+          <div className="text-over-image-container">
           <p className="text_here">Website development</p>
           <a href="/work/Thisweb" class="portfolio__item">
             <Customlink href="/Thisweb"><img src={l5} alt="" class="portfolio__img"></img></Customlink>
           </a>
           </div>
 
-          <div className="baba">
-          <p className="text_here">UI/UX Design</p>
+          <div className="text-over-image-container">
+          <p className="text_here">UI/ UX Design</p>
           <a href="/work/UI-UX Design" class="portfolio__item">
             <Customlink href="/UIUXdesign"><img src={l7} alt="" class="portfolio__img"></img></Customlink>
           </a>
           </div>
 
-          <div className="baba">
-          <p className="text_here">photo photoshop</p>
+          <div className="text-over-image-container">
+          <p className="text_here">photoshop</p>
           <a href="/work/Photoshop" class="portfolio__item">
             <Customlink href="/Photoshop"><img src={l6} alt="" class="portfolio__img"></img></Customlink>
           </a>

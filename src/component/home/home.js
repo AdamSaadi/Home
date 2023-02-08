@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import Foot from "../sure/footer/footer";
 import L1 from "../../images/Home-me.jpg"
-import L2 from "../../images/Home-me.jpg"
+import L2 from "../../images/Home-photoToMe.jpg"
 
 
 

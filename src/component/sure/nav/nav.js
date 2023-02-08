@@ -39,12 +39,12 @@ function App() {
         </div>
 }
 </div>
-    </nav>
+    
         {showNavbar ? null : (
           <img src={l1}  alt="Logo" className="logo"/>
         )}
         
-        
+        </nav>
 
     </div>
     
