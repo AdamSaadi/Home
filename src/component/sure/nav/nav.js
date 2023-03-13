@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import l1 from "../../../images/Nav-logo.png"
+import l1 from "../../../images/nav-logo.png"
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -9,7 +9,7 @@ function App() {
 
 
       <nav className="navbar">
-        <Customlink href="/" ><img className="logo-pc" src={l1} alt="logo" /></Customlink>
+        <Customlink href="/" ><img className="logo-pc" src={l1} alt="ADAM SAADi logo" /></Customlink>
         <ul className="nav__links" >
           <Customlink href="/" className="li-in-nav"> Home </Customlink>
           <Customlink href="/Work" className="li-in-nav"> Work </Customlink>

@@ -46,6 +46,8 @@ export default function App() {
         case "/UIUXdesign":
             Component = <UIUXdesign />
             break;
+            
+
 
         default:
             Component = <Home />
